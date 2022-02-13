@@ -2,28 +2,40 @@ const path = require('path')
 const htmlWebpackPlugin = require('html-webpack-plugin')
 const { VueLoaderPlugin } = require('vue-loader')
 const CssMinimizerWebpackPlugin = require('css-minimizer-webpack-plugin')
+const terserMinify = require('terser-webpack-plugin')
 
 module.exports = {
-    mode: "development",
+    mode: "production",
     entry: './src/index.js',
     output: {
         filename: "[name].[contenthash].js",
         path: path.resolve(__dirname, 'dist'),
         clean: true
     },
-    devtool: 'inline-source-map',
-    devServer: {
-        static: './dist',
-        hot: true
+    optimization: {
+        minimize: true,
+        minimizer: [
+            '...',
+            new CssMinimizerWebpackPlugin(),
+            new terserMinify()
+        ],
+        splitChunks:{
+            chunks: "all"
+        }
     },
     plugins: [
         new htmlWebpackPlugin({
             filename: 'index.html',
             template: path.resolve(__dirname, './src/index.html'),
-            inject: true
+            inject: true,
+            minify: {
+                //移除空格
+                collapseWhitespace: true,
+                //移除注释
+                removeComments: true
+            }
         }),
-        new VueLoaderPlugin(),
-        new CssMinimizerWebpackPlugin()
+        new VueLoaderPlugin()
     ],
     module: {
         rules: [
@@ -54,18 +66,6 @@ module.exports = {
                     }
                 ]
             },
-            // {
-            //   test: /\.(html)$/,
-            //     use: ['html-loader']
-            // },
-            // {
-            //     test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
-            //     use: [
-            //         {
-            //             loader: "url-loader"
-            //         }
-            //     ]
-            // },
             {
                 test: /\.(csv|tsv)$/,
                 use: [
