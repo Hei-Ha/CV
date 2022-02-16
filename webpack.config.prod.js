@@ -2,10 +2,9 @@ const path = require('path')
 const htmlWebpackPlugin = require('html-webpack-plugin')
 const { VueLoaderPlugin } = require('vue-loader')
 const CssMinimizerWebpackPlugin = require('css-minimizer-webpack-plugin')
-const terserMinify = require('terser-webpack-plugin')
 
 module.exports = {
-    mode: "production",
+    mode: 'production',
     entry: './src/index.js',
     output: {
         filename: "[name].[contenthash].js",
@@ -16,8 +15,7 @@ module.exports = {
         minimize: true,
         minimizer: [
             '...',
-            new CssMinimizerWebpackPlugin(),
-            new terserMinify()
+            new CssMinimizerWebpackPlugin()
         ],
         splitChunks:{
             chunks: "all"
