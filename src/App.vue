@@ -54,7 +54,7 @@
             </p>
             <p class="describe skill">
               <i class="iconfont icon-dian skill-icon"></i>
-              <span class="message">了解：<code>Git</code>、<code>TypeScript</code>，参与团队研发。</span>
+              <span class="message">了解：<code>Git</code>、<code>TypeScript</code>，微信小程序。</span>
             </p>
           </article>
         </el-col>
