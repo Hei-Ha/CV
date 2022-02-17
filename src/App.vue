@@ -195,7 +195,7 @@
           <article class="projectExperience">
             <section>
               <div class="project-title">
-                <h3>个人UI组件库</h3>
+                <h3 class="link">个人UI组件库 &nbsp;&nbsp;&nbsp;&nbsp;<a class="link" href="https://wang-chuang.gitee.io/vue3-practice">组件库链接</a></h3>
               </div>
               <div class="project-message">
                 <div class="project-little-title">项目描述：</div>
@@ -214,7 +214,7 @@
                 </p>
               </div>
               <div class="project-link">
-                <a href="https://wang-chuang.gitee.io/vue3-practice">组件库页面链接</a>
+
               </div>
             </section>
           </article>
@@ -333,6 +333,10 @@ export default {
 
       .project-describe {
         flex: 1;
+      }
+      .link {
+        display: inline-block;
+        background-color: aqua;
       }
     }
 
