@@ -14,6 +14,8 @@ export const Introduction = (props: PropsValue) => {
             </div>
             <span className='w-36% h-px bg-#EDEDED' />
         </div>
-        {props.content(null)}
+        <div className='mt-3'>
+            {props.content(null)}
+        </div>
     </div>
 }

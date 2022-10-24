@@ -15,8 +15,33 @@ export const Content = () => {
     }
 
     const Technology: React.FC = () => {
-        return <div>
+        return <div className='text-sm'>
+            <div className='flex items-center my-2'>
+                <span className='round mr-3' />
+                熟悉：<code>HTML</code>、<code>CSS</code>、<code>JavaScript</code>、<code>AJax</code>、<code>ES6</code>语法。
+            </div>
+            <div className='flex items-center my-2'>
+                <span className='round mr-3' />
+                熟悉：<code>Vue</code>、<code>Vue-router</code>、<code>Vuex</code>、<code>Webpack</code>。
+            </div>
+            <div className='flex items-center my-2'>
+                <span className='round mr-3' />
+                熟悉：<code>Element-ui</code>、<code>Ant Design</code>&nbsp;等主流 UI 组件库的使用。
+            </div>
+            <div className='flex items-center my-2'>
+                <span className='round mr-3' />
+                了解：使用&nbsp;<code>React</code>、<code>Less</code>，<code>Vue3</code>、<code>vite</code>，做过练习项目。
+            </div>
+            <div className='flex items-center my-2'>
+                <span className='round mr-3' />
+                了解：<code>Git</code>、<code>TypeScript</code>。
+            </div>
+        </div>
+    }
 
+    const WorkExperience: React.FC = () => {
+        return <div>
+            12312
         </div>
     }
 
@@ -47,6 +72,11 @@ export const Content = () => {
             <Introduction
                 title={'专业能力'}
                 content={Technology}
+            />
+            {/*工作经历*/}
+            <Introduction
+                title={'工作经历'}
+                content={WorkExperience}
             />
         </div>
     </div>
