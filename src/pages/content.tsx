@@ -1,14 +1,16 @@
 import React from 'react';
 import { Introduction } from '@src/pages/components/introduction';
+import { WorkExperience } from '@src/pages/components/WorkExperience';
+import { ProjectExperience } from '@src/pages/components/ProjectExperience';
 
 
 export const Content = () => {
 
     const Eduction: React.FC = () => {
         return <div>
-            <div className='flex justify-between'>
-                <span className='text-sm font-medium'>南阳理工学院 —— 软件学院</span>
-                <span className='text-sm'>2016.9 —— 2020.6</span>
+            <div className='flex justify-between text-sm'>
+                <span className='font-medium'>南阳理工学院 —— 软件学院</span>
+                <span >2016.9 —— 2020.6</span>
             </div>
             <span className='ml-4 text-xs'>软件工程</span>
         </div>
@@ -36,12 +38,6 @@ export const Content = () => {
                 <span className='round mr-3' />
                 了解：<code>Git</code>、<code>TypeScript</code>。
             </div>
-        </div>
-    }
-
-    const WorkExperience: React.FC = () => {
-        return <div>
-            12312
         </div>
     }
 
@@ -77,6 +73,11 @@ export const Content = () => {
             <Introduction
                 title={'工作经历'}
                 content={WorkExperience}
+            />
+            {/*项目经历*/}
+            <Introduction
+                title={'项目经历'}
+                content={ProjectExperience}
             />
         </div>
     </div>
