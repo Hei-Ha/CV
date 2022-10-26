@@ -24,7 +24,7 @@ export const Content = () => {
             </div>
             <div className='flex items-center my-2'>
                 <span className='round mr-3' />
-                熟悉：<code>Vue</code>、<code>Vue-router</code>、<code>Vuex</code>、<code>Webpack</code>。
+                熟悉：<code>Vue</code>、<code>Vue-router</code>、<code>Vuex</code>、<code>React</code>、<code>Webpack</code>。
             </div>
             <div className='flex items-center my-2'>
                 <span className='round mr-3' />
@@ -32,7 +32,7 @@ export const Content = () => {
             </div>
             <div className='flex items-center my-2'>
                 <span className='round mr-3' />
-                了解：使用&nbsp;<code>React</code>、<code>Less</code>，<code>Vue3</code>、<code>vite</code>，做过练习项目。
+                了解：使用&nbsp;<code>Vue3</code>、<code>Vite</code>，<code>Tailwindcss</code>做过练习项目。
             </div>
             <div className='flex items-center my-2'>
                 <span className='round mr-3' />

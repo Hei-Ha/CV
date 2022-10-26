@@ -16,7 +16,8 @@ module.exports = {
             '#F0E9D2': '#F0E9D2',
             '#FFFFFF': '#FFFFFF',
             '#EEEEEE': '#EEEEEE',
-            '#EDEDED': '#EDEDED'
+            '#EDEDED': '#EDEDED',
+            '#551A8B': '#551A8B'
         }
     },
     plugins: []
