@@ -20,23 +20,19 @@ export const Content = () => {
         return <div className='text-sm'>
             <div className='flex items-center my-2'>
                 <span className='round mr-3' />
-                熟悉：<code>HTML</code>、<code>CSS</code>、<code>JavaScript</code>、<code>AJax</code>、<code>ES6</code>语法。
+                掌握：<code>HTML</code>、<code>CSS</code>、<code>JavaScript</code>、<code>ES6</code>语法。
             </div>
             <div className='flex items-center my-2'>
                 <span className='round mr-3' />
-                熟悉：<code>Vue</code>、<code>Vue-router</code>、<code>Vuex</code>、<code>React</code>、<code>Webpack</code>。
+                熟悉：<code>Vue</code>、<code>Vue-Router</code>、<code>Vuex</code>、<code>React</code>、<code>Webpack</code> 等前端技术。
             </div>
             <div className='flex items-center my-2'>
                 <span className='round mr-3' />
-                熟悉：<code>Element-ui</code>、<code>Ant Design</code>&nbsp;等主流 UI 组件库的使用。
+                熟练使用：<code>Element-ui</code>、<code>Ant Design</code>&nbsp;等主流 UI 组件库。
             </div>
             <div className='flex items-center my-2'>
                 <span className='round mr-3' />
-                了解：使用&nbsp;<code>Vue3</code>、<code>Vite</code>，<code>Tailwindcss</code>做过练习项目。
-            </div>
-            <div className='flex items-center my-2'>
-                <span className='round mr-3' />
-                了解：<code>Git</code>、<code>TypeScript</code>。
+                了解&nbsp; <code>Vue3</code>、<code>Vite</code>，<code>TypeScript</code>、<code>Tailwindcss</code>，并做过练习项目。
             </div>
         </div>
     }
@@ -48,8 +44,8 @@ export const Content = () => {
                 <h3 className='inline-block mr-5 text-5xl font-extrabold'>王闯</h3>
                 <span className='inline-block text-xl mr-2'>目标职位：Web 前端工程师</span>
                 <span className='inline-block text-base'>
-                <span className='mr-2'>/</span>
-                <span className='mr-2'>北京</span>
+                {/*<span className='mr-2'>/</span>*/}
+                {/*<span className='mr-2'>北京</span>*/}
             </span>
             </header>
             <div className='h-px bg-#CCCCCC'/>

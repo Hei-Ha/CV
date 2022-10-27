@@ -16,11 +16,11 @@ export const WorkExperience: React.FC = () => {
                 <div className='flex flex-col my-1'>
                     <div className='my-1'>
                         <span className='round mr-3' />
-                        负责公司内部运营平台的功能开发。
+                        负责公司内部测试运营平台的功能开发。
                     </div>
                     <div className='my-1'>
                         <span className='round mr-3' />
-                        负责公司内部大数据平台、机器学习平台的搭建和功能开发。
+                        负责公司内部数据平台、机器学习平台的搭建和功能开发。
                     </div>
                     <div className='my-1'>
                         <span className='round mr-3' />
