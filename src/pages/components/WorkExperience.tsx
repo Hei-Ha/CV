@@ -4,7 +4,7 @@ export const WorkExperience: React.FC = () => {
     return <div className='text-sm'>
         <section>
             <div className='my-3 flex justify-between'>
-                <header className='font-medium'>北京轻舟智航行智能技术有限公司</header>
+                <header className='font-medium'>北京轻舟智航智能技术有限公司</header>
                 <span>2022.3 —— 至今</span>
             </div>
             <div className='my-2'>
