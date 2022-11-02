@@ -24,11 +24,11 @@ export const Content = () => {
             </div>
             <div className='flex items-center my-2'>
                 <span className='round mr-3' />
-                熟悉：<code>Vue</code>、<code>Vue-Router</code>、<code>Vuex</code>、<code>React</code>、<code>Webpack</code> 等前端技术。
+                熟悉：<code>Vue</code>、<code>React</code>、<code>Webpack</code> 等前端技术。
             </div>
             <div className='flex items-center my-2'>
                 <span className='round mr-3' />
-                熟练使用：<code>Element-ui</code>、<code>Ant Design</code>&nbsp;等主流 UI 组件库。
+                熟练使用：<code>Element-ui</code>、<code>Ant Design</code>、<code>Echarts</code>&nbsp;等组件库。
             </div>
             <div className='flex items-center my-2'>
                 <span className='round mr-3' />
