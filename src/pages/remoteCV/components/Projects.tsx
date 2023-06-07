@@ -14,14 +14,14 @@ export const Projects = () => {
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>
                     <span>
-                    <code>React</code> + <code>Webpack</code> + <code>TypeScript</code> + <code>Tailwindcss</code>
+                    <code>React</code> + <code>Webpack</code> + <code>TypeScript</code> + <code>Arco-Design</code> + <code>Tailwindcss</code>
                 </span>
                 </p>
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>工作内容：</div>
                     <div className='flex flex-col'>
                         <div className='flex items-center'>
-                            负责系统搭建、账号权限的设计和开发。
+                            负责项目框架的搭建、权限模块的设计和开发。
                         </div>
                     </div>
                 </p>
@@ -35,7 +35,7 @@ export const Projects = () => {
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>
                     <span>
-                    <code>React</code> + <code>Webpack</code> + <code>TypeScript</code> + <code>Tailwindcss</code>
+                    <code>React</code> + <code>Webpack</code> + <code>TypeScript</code> + <code>Arco-Design</code> + <code>Tailwindcss</code>
                 </span>
                 </p>
                 <p className='mb-2 flex'>
@@ -98,7 +98,25 @@ export const Projects = () => {
             </section>
             <section className='mt-5'>
                 <header className='font-medium my-2'>
-                    <span className='mr-3'>个人 UI 组件库：</span>
+                    <span className='mr-3'>ECharts 常用组件库：</span>
+                    <span className='font-normal text-#551A8B'>
+                    <a href="https://hei-ha.github.io/QCharts/" target='_blank'>在线链接</a>
+                </span>
+                </header>
+                <p className='mb-2 flex'>
+                    <div className='w-20 shrink-0'>项目描述：</div>
+                    <span>此项目将公司内部常用的图表展示形式，以公司 UI 风格封装，方便后续开发直接使用，提高效率。</span>
+                </p>
+                <p className='mb-2 flex'>
+                    <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>
+                    <span>
+                    <code>Echarts</code> + <code>React</code> + <code>Webpack</code> + <code>Arco-Design</code>
+                </span>
+                </p>
+            </section>
+            <section className='mt-5'>
+                <header className='font-medium my-2'>
+                    <span className='mr-3'>Vue3 UI 组件库：</span>
                     <span className='font-normal text-#551A8B'>
                     <a href="https://wang-chuang.gitee.io/vue3-practice/" target='_blank'>在线链接</a>
                 </span>
@@ -110,7 +128,7 @@ export const Projects = () => {
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>
                     <span>
-                    <code>vue3</code> + <code>vite</code> + <code>TypeScript</code>
+                    <code>Vue3</code> + <code>Vite</code> + <code>TypeScript</code>
                 </span>
                 </p>
             </section>
