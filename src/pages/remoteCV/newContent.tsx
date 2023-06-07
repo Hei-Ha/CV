@@ -14,7 +14,7 @@ export const NewContent = () => {
         <Header />
         <div className='mx-7'>
             <Education />
-            {/*<Technology />*/}
+            <Technology />
             {/*<Experience />*/}
             {/*<Projects />*/}
         </div>

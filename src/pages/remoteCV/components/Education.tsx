@@ -3,7 +3,7 @@ import { CardTitle } from '@src/utils/utilsStyle';
 
 
 export const Education = () => {
-    return <div className=' py-5'>
+    return <div className='py-5'>
         <CardTitle title={'教育背景'} />
         <div className='flex justify-between mt-3'>
             <span>南阳理工学院 ———— 软件学院</span>
