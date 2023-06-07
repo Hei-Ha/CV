@@ -1,24 +1,119 @@
 import React from "react";
+import { CardTitle } from '@src/utils/utilsStyle';
 
 export const Projects = () => {
-    return <div>
-        项目经历
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis, doloremque earum esse facilis impedit maxime quis quod quos sequi. Aperiam blanditiis debitis delectus deserunt est inventore libero molestiae voluptatem?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at blanditiis debitis dignissimos distinctio doloribus esse excepturi id ipsum iste itaque laboriosam libero molestiae odit officia quod, soluta tempora voluptates.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias fugit labore qui sapiente veritatis voluptatibus? Asperiores earum inventore mollitia optio praesentium quis repellat tempore tenetur. Ab aut deserunt modi obcaecati.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid laborum mollitia nisi sapiente voluptates! Accusantium animi aut consequuntur ducimus eius harum magnam nisi nulla, quaerat, quam repellendus rerum similique tenetur!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab commodi distinctio eaque eius eos illo, natus nesciunt nobis numquam, officiis omnis possimus quia quibusdam rem repellendus totam vel velit vero!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam atque commodi cupiditate distinctio esse explicabo hic incidunt, itaque laborum maxime molestiae officia perspiciatis quasi recusandae repellendus sunt tempore totam.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores cumque deserunt eaque et ex excepturi expedita, minus neque nisi odit perferendis possimus, provident quas quibusdam quidem rerum soluta voluptatibus?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque consectetur consequuntur, dolores fuga ipsam iste maiores modi molestiae nobis nulla obcaecati officiis provident quod sunt tempora tenetur? Assumenda, deleniti!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam aliquid, consectetur consequuntur corporis distinctio, illo inventore ipsum modi nisi quam quasi qui sint sit sunt tempore ut veniam voluptate.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At corporis dolores eos excepturi exercitationem in quis ratione totam? Alias aspernatur beatae consequuntur dolor doloremque doloribus ducimus, odit perferendis repellendus soluta.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto cupiditate dolorem explicabo iure minus porro! A alias deserunt nihil? Ad amet eum ipsam itaque maiores placeat, quasi quos tempora.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur atque cum cupiditate dolor dolore sapiente veritatis. Animi doloribus ducimus ea eius, illum, incidunt libero nihil officia, similique soluta velit.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consectetur consequuntur debitis deleniti dicta dolorum earum eius et iste, nesciunt nihil nostrum odio officiis repudiandae sapiente sed tenetur voluptatibus! Non.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores illo in laboriosam mollitia quaerat quod unde. Harum itaque libero reiciendis vel voluptatem! Ducimus repellat, repellendus? Aliquam hic iste nulla?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, consequatur dolor doloremque eius est exercitationem explicabo harum ipsa ipsum laboriosam nostrum obcaecati optio porro quaerat quos vero voluptas. Excepturi, laboriosam.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aut beatae dolore eius eveniet impedit incidunt magni, maxime minus, mollitia officiis quam quis quos repudiandae voluptas! Dignissimos facilis ipsam magni.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eligendi facere non officiis. Animi aut consequuntur fugiat mollitia odit quae quis, saepe sint voluptatem voluptates. Esse necessitatibus reprehenderit veniam voluptate.
+    return <div className='py-5'>
+        <CardTitle title='项目经历' />
+        <div className='text-sm'>
+            <section>
+                <header className='font-medium my-2'>QLabel：</header>
+                <p className='mb-2 flex'>
+                    <div className='w-20 shrink-0'>项目描述：</div>
+                    <span>此项目是为了给公司供应商提供一个在线标注平台，供其对公司点云图片及其他数据进行在线标注，包含账号权限控制，数据分配，结果验收等模块。</span>
+                </p>
+                <p className='mb-2 flex'>
+                    <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>
+                    <span>
+                    <code>React</code> + <code>Webpack</code> + <code>TypeScript</code> + <code>Tailwindcss</code>
+                </span>
+                </p>
+                <p className='mb-2 flex'>
+                    <div className='w-20 shrink-0'>工作内容：</div>
+                    <div className='flex flex-col'>
+                        <div className='flex items-center'>
+                            负责系统搭建、账号权限的设计和开发。
+                        </div>
+                    </div>
+                </p>
+            </section>
+            <section className='mt-5'>
+                <header className='font-medium my-2'>QData：</header>
+                <p className='mb-2 flex'>
+                    <div className='w-20 shrink-0'>项目描述：</div>
+                    <span>此项目主要是公司帮助公司内部员工在线处理采集回来的标注数据（以图片为主），快速确定某批次数据是否可以送标，送标后的数据会组成样本库，然后仿真同事用以提升算法性能。</span>
+                </p>
+                <p className='mb-2 flex'>
+                    <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>
+                    <span>
+                    <code>React</code> + <code>Webpack</code> + <code>TypeScript</code> + <code>Tailwindcss</code>
+                </span>
+                </p>
+                <p className='mb-2 flex'>
+                    <div className='w-20 shrink-0'>工作内容：</div>
+                    <div className='flex flex-col'>
+                        <div className='flex items-center'>
+                            负责审核模块的开发和功能迭代。
+                        </div>
+                    </div>
+                </p>
+                <p className='mb-2 flex'>
+                    <div className='w-20 shrink-0'>成&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;果：</div>
+                    <div className='flex flex-col'>
+                        <div className='flex items-center'>
+                            提升标注同事对采集数据的处理效率，提高送标数据的有效性，节约公司成本。
+                        </div>
+                    </div>
+                </p>
+            </section>
+            <section className='mt-5'>
+                <header className='font-medium my-2'>招商后台管理系统：</header>
+                <p className='mb-2 flex'>
+                    <div className='w-20 shrink-0'>项目描述：</div>
+                    <span>此系统主要为公司内部运营人员服务，运营人员利用此系统每天抢占公海资源库的商机信息，并负责外呼跟进自己的商机信息，与潜在客户取得联系，促使其签订意向单，进一步转化为与公司签订合同。</span>
+                </p>
+                <p className='mb-2 flex'>
+                    <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>
+                    <span>
+                    <code>Vue2</code> + <code>Vue-router</code> + <code>Element-ui</code> + <code>webpack</code>
+                </span>
+                </p>
+                <p className='mb-2 flex'>
+                    <div className='w-20 shrink-0'>工作内容：</div>
+                    <div className='flex flex-col'>
+                        <div className='flex items-center'>
+                            <span className='round mr-3' />维护此项目正常运行，功能迭代(在职期间完成至少 86 个大大小小需求)。
+                        </div>
+                        <div className='flex items-center'>
+                            <span className='round mr-3' />封装了 Form 和 Table 公共组件。
+                        </div>
+                        <div className='flex items-center'>
+                            <span className='round mr-3' />接入公司内部性能监控平台（北斗性能监控平台）。
+                        </div>
+                    </div>
+                </p>
+                <p className='mb-2 flex'>
+                    <div className='w-20 shrink-0'>成&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;果：</div>
+                    <div className='flex flex-col'>
+                        <div className='flex items-center'>
+                            <span className='round mr-3' />在 Element-ui 组件的基础上，封装适合公司系统风格 RcForm 和 RcTable 组件，提升开发效率 60% 以上，同时降低新同学上手项目难
+                        </div>
+                        <div className='ml-4'>
+                            度，提升业务产出速度。
+                        </div>
+                        <div className='flex items-center'>
+                            <span className='round mr-3' />开发 webpack 插件，以配置的形式传入必要数据，极大的简化了项目接入性能监控平台的步骤。
+                        </div>
+                    </div>
+                </p>
+            </section>
+            <section className='mt-5'>
+                <header className='font-medium my-2'>
+                    <span className='mr-3'>个人 UI 组件库：</span>
+                    <span className='font-normal text-#551A8B'>
+                    <a href="https://wang-chuang.gitee.io/vue3-practice/" target='_blank'>在线链接</a>
+                </span>
+                </header>
+                <p className='mb-2 flex'>
+                    <div className='w-20 shrink-0'>项目描述：</div>
+                    <span>此项目为刚接触 vue3 时的练习项目，目的是为了学习 vue3 语法，并体验 vite 打包，项目中尝试使用了 TypeScript 语法。</span>
+                </p>
+                <p className='mb-2 flex'>
+                    <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>
+                    <span>
+                    <code>vue3</code> + <code>vite</code> + <code>TypeScript</code>
+                </span>
+                </p>
+            </section>
+        </div>
     </div>
 }

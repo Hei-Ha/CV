@@ -16,7 +16,7 @@ export const NewContent = () => {
             <Education />
             <Technology />
             <Experience />
-            {/*<Projects />*/}
+            <Projects />
         </div>
     </div>
 }
