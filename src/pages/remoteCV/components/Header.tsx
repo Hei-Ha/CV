@@ -13,7 +13,7 @@ export const Header = () => {
         <div className='h-px bg-#CCCCCC'/>
         {/*个人联系方式*/}
         <div className='my-8 text-sm'>
-            <span>176-3823-1093 ｜ 男 ｜ 25岁 ｜ wang_chuang_@aliyun.com</span>
+            <span>176-3823-1093 ｜ 男 ｜ 26岁 ｜ wang_chuang_@aliyun.com</span>
         </div>
     </div>
 }

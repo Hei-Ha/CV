@@ -11,11 +11,16 @@ module.exports = {
                 '30px': '30px'
             },
             screens: {
-                'sm': '576px',
-                'md': '768px',
-                'lg': '1024px',
-                'xl': '1200px',
-                'xxl': '1600px'
+                // 'sm': '576px',
+                'min-md': {
+                    'min': '768px'
+                },
+                'max-md': {
+                    'max': '768px'
+                },
+                'min-lg': {
+                    'min': '1024px'
+                },
             }
         },
         colors: {
@@ -24,7 +29,8 @@ module.exports = {
             '#FFFFFF': '#FFFFFF',
             '#EEEEEE': '#EEEEEE',
             '#EDEDED': '#EDEDED',
-            '#551A8B': '#551A8B'
+            '#551A8B': '#551A8B',
+            'testColor': '#7fcfff',
         }
     },
     plugins: []
