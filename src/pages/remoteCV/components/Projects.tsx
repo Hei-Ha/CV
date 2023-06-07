@@ -30,7 +30,7 @@ export const Projects = () => {
                 <header className='font-medium my-2'>QData：</header>
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>项目描述：</div>
-                    <span>此项目主要是公司帮助公司内部员工在线处理采集回来的标注数据（以图片为主），快速确定某批次数据是否可以送标，送标后的数据会组成样本库，然后仿真同事用以提升算法性能。</span>
+                    <span>此项目主要是展示数据采集回传的 Run 数据，经过分片之后，以图片的形式供审核人员快速确定某批数据是否可以送标；同时提供数据统计模块，按筛选条件展示回传数据的标签统计情况。</span>
                 </p>
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>
