@@ -1,7 +1,7 @@
 import React from 'react';
-import { Introduction } from '@src/pages/components/introduction';
-import { WorkExperience } from '@src/pages/components/WorkExperience';
-import { ProjectExperience } from '@src/pages/components/ProjectExperience';
+import { Introduction } from '@src/pages/universalCV/components/introduction';
+import { WorkExperience } from '@src/pages/universalCV/components/WorkExperience';
+import { ProjectExperience } from '@src/pages/universalCV/components/ProjectExperience';
 
 
 export const Content = () => {

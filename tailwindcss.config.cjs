@@ -9,6 +9,13 @@ module.exports = {
             },
             padding: {
                 '30px': '30px'
+            },
+            screens: {
+                'sm': '576px',
+                'md': '768px',
+                'lg': '1024px',
+                'xl': '1200px',
+                'xxl': '1600px'
             }
         },
         colors: {
