@@ -15,7 +15,7 @@ export const Technology = () => {
             </div>
             <div className='flex items-center my-2 break-words'>
                 <span className='round mr-3' />
-                熟练使用：<code>Element-ui</code>、<code>Ant Design</code>、<code>Echarts</code>&nbsp;等组件库。
+                熟练使用：<code>Element-UI</code>、<code>Ant Design</code>、<code>Echarts</code>&nbsp;等组件库。
             </div>
             <div className='flex items-center my-2 break-words'>
                 <span className='round mr-3' />

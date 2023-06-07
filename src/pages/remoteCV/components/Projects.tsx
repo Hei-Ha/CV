@@ -42,7 +42,7 @@ export const Projects = () => {
                     <div className='w-20 shrink-0'>工作内容：</div>
                     <div className='flex flex-col'>
                         <div className='flex items-center'>
-                            负责审核模块的开发和功能迭代。
+                            负责审核模块、数据统计模块的开发和整个系统后续的功能迭代。
                         </div>
                     </div>
                 </p>
