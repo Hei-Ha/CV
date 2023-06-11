@@ -11,8 +11,9 @@ export const Experience = () => {
                     <span>2022.3 —— 2023.5</span>
                 </div>
                 <div className='my-2'>
-                    <span>技术栈：</span>
-                    <code>React</code>、<code>Arco-design</code>、<code>Webpack</code>、<code>TailwindCss</code>
+                    <strong>前端工程师</strong>
+                    {/*<span>技术栈：</span>*/}
+                    {/*<code>React</code>、<code>Arco-design</code>、<code>Webpack</code>、<code>TailwindCss</code>*/}
                 </div>
                 <div>
                     <span>工作内容：</span>
@@ -39,8 +40,9 @@ export const Experience = () => {
                     <span>2020.5 —— 2021.12</span>
                 </div>
                 <div className='my-2'>
-                    <span>技术栈：</span>
-                    <code>Vue2</code>、<code>Element-ui</code>、<code>Webpack</code>
+                    <strong>前端工程师</strong>
+                    {/*<span>技术栈：</span>*/}
+                    {/*<code>Vue2</code>、<code>Element-ui</code>、<code>Webpack</code>*/}
                 </div>
                 <div>
                     <span>工作内容：</span>
