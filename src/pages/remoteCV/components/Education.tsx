@@ -9,6 +9,9 @@ export const Education = () => {
             <span>南阳理工学院 ———— 软件学院</span>
             <span className='text-sm'>2016-9 ———— 2020.6</span>
         </div>
-        <div className='mt-2 text-sm'>软件工程</div>
+        <div className='mt-2 text-sm flex justify-between'>
+            <span>软件工程</span>
+            <span>统招本科</span>
+        </div>
     </div>
 }
