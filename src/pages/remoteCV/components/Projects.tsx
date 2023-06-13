@@ -6,7 +6,9 @@ export const Projects = () => {
         <CardTitle title='项目经历' />
         <div className='text-sm'>
             <section>
-                <header className='font-medium my-2'>QLabel：</header>
+                <header className='my-2 text-base'>
+                    <strong>QLabel：</strong>
+                </header>
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>项目描述：</div>
                     <span>此项目是为了给公司供应商提供一个在线标注平台，供其对公司点云图片及其他数据进行在线标注，包含账号权限控制，数据分配，结果验收等模块。</span>
@@ -26,8 +28,10 @@ export const Projects = () => {
                     </div>
                 </p>
             </section>
-            <section className='mt-5'>
-                <header className='font-medium my-2'>QData：</header>
+            <section className='mt-7 text-base'>
+                <header className='my-2'>
+                    <strong>QData：</strong>
+                </header>
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>项目描述：</div>
                     <span>此项目主要是展示数据采集回传的 Run 数据，经过分片之后，以图片的形式供审核人员快速确定某批数据是否可以送标；同时提供数据统计模块，按筛选条件展示回传数据的标签统计情况。</span>
@@ -55,8 +59,10 @@ export const Projects = () => {
                     </div>
                 </p>
             </section>
-            <section className='mt-5'>
-                <header className='font-medium my-2'>招商后台管理系统：</header>
+            <section className='mt-7'>
+                <header className='my-2 text-base'>
+                    <strong>招商后台管理系统：</strong>
+                </header>
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>项目描述：</div>
                     <span>此系统主要为公司内部运营人员服务，运营人员利用此系统每天抢占公海资源库的商机信息，并负责外呼跟进自己的商机信息，与潜在客户取得联系，促使其签订意向单，进一步转化为与公司签订合同。</span>
@@ -96,9 +102,11 @@ export const Projects = () => {
                     </div>
                 </p>
             </section>
-            <section className='mt-5'>
-                <header className='font-medium my-2'>
-                    <span className='mr-3'>ECharts 常用组件库：</span>
+            <section className='mt-7'>
+                <header className='my-2 text-base'>
+                    <span className='mr-3'>
+                        <strong>ECharts 常用组件库：</strong>
+                    </span>
                     <span className='font-normal text-#551A8B'>
                     <a href="https://hei-ha.github.io/QCharts/" target='_blank'>在线链接</a>
                 </span>
@@ -114,9 +122,11 @@ export const Projects = () => {
                 </span>
                 </p>
             </section>
-            <section className='mt-5'>
-                <header className='font-medium my-2'>
-                    <span className='mr-3'>Vue3 UI 组件库：</span>
+            <section className='mt-7'>
+                <header className='my-2 text-base'>
+                    <span className='mr-3'>
+                        <strong>Vue3 UI 组件库：</strong>
+                    </span>
                     <span className='font-normal text-#551A8B'>
                     <a href="https://wang-chuang.gitee.io/vue3-practice/" target='_blank'>在线链接</a>
                 </span>

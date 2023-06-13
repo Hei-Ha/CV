@@ -5,7 +5,7 @@ import { Technology } from "@src/pages/remoteCV/components/Technology";
 import { Experience } from "@src/pages/remoteCV/components/Experience";
 import { Projects } from "@src/pages/remoteCV/components/Projects";
 
-export const NewContent = () => {
+export const Content = () => {
     return <div className='rounded-sm overflow-hidden box-border bg-#FFFFFF flex flex-col justify-center
         min-lg:w-1000px
         min-md:w-[calc(100vw-20px)]
