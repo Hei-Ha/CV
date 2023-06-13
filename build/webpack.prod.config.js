@@ -11,7 +11,7 @@ export default merge(commonConfig, {
         clean: true,
         pathinfo: false, // 输出结果不带路径信息，以提高性能
     },
-    devtool: 'source-map',
+    // devtool: 'source-map',
     optimization: {
         moduleIds: 'deterministic',
         runtimeChunk: 'single',
