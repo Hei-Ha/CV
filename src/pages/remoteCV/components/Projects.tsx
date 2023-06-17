@@ -23,13 +23,16 @@ export const Projects = () => {
                     <div className='w-20 shrink-0'>工作内容：</div>
                     <div className='flex flex-col'>
                         <div className='flex items-center'>
-                            负责项目框架的搭建、权限模块的设计和开发。
+                            主要负责设计和开发权限模块。
+                            除此之外项目初期，负责梳理整体需求，
+                            从 0 - 1 快速搭建项目整体框架；
+                            {/*负责项目框架的搭建、权限模块的设计和开发。*/}
                         </div>
                     </div>
                 </p>
             </section>
-            <section className='mt-7 text-base'>
-                <header className='my-2'>
+            <section className='mt-7'>
+                <header className='my-2 text-base'>
                     <strong>QData：</strong>
                 </header>
                 <p className='mb-2 flex'>
@@ -54,7 +57,8 @@ export const Projects = () => {
                     <div className='w-20 shrink-0'>成&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;果：</div>
                     <div className='flex flex-col'>
                         <div className='flex items-center'>
-                            提升标注同事对采集数据的处理效率，提高送标数据的有效性，节约公司成本。
+                            项目初期中途接手，开发周期较紧张。在有限时间内梳理并整理需求，确定优先级，合理安排开发时间，在规定时间内上线第一版供用户使用。
+                            提升了标注同事对采集数据的处理效率，提高送标数据的有效性，节约公司成本。
                         </div>
                     </div>
                 </p>
@@ -122,26 +126,26 @@ export const Projects = () => {
                 </span>
                 </p>
             </section>
-            <section className='mt-7'>
-                <header className='my-2 text-base'>
-                    <span className='mr-3'>
-                        <strong>Vue3 UI 组件库：</strong>
-                    </span>
-                    <span className='font-normal text-#551A8B'>
-                    <a href="https://wang-chuang.gitee.io/vue3-practice/" target='_blank'>在线链接</a>
-                </span>
-                </header>
-                <p className='mb-2 flex'>
-                    <div className='w-20 shrink-0'>项目描述：</div>
-                    <span>此项目为刚接触 vue3 时的练习项目，目的是为了学习 vue3 语法，并体验 vite 打包，项目中尝试使用了 TypeScript 语法。</span>
-                </p>
-                <p className='mb-2 flex'>
-                    <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>
-                    <span>
-                    <code>Vue3</code> + <code>Vite</code> + <code>TypeScript</code>
-                </span>
-                </p>
-            </section>
+            {/*<section className='mt-7'>*/}
+            {/*    <header className='my-2 text-base'>*/}
+            {/*        <span className='mr-3'>*/}
+            {/*            <strong>Vue3 UI 组件库：</strong>*/}
+            {/*        </span>*/}
+            {/*        <span className='font-normal text-#551A8B'>*/}
+            {/*        <a href="https://wang-chuang.gitee.io/vue3-practice/" target='_blank'>在线链接</a>*/}
+            {/*    </span>*/}
+            {/*    </header>*/}
+            {/*    <p className='mb-2 flex'>*/}
+            {/*        <div className='w-20 shrink-0'>项目描述：</div>*/}
+            {/*        <span>此项目为刚接触 vue3 时的练习项目，目的是为了学习 vue3 语法，并体验 vite 打包，项目中尝试使用了 TypeScript 语法。</span>*/}
+            {/*    </p>*/}
+            {/*    <p className='mb-2 flex'>*/}
+            {/*        <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>*/}
+            {/*        <span>*/}
+            {/*        <code>Vue3</code> + <code>Vite</code> + <code>TypeScript</code>*/}
+            {/*    </span>*/}
+            {/*    </p>*/}
+            {/*</section>*/}
         </div>
     </div>
 }
