@@ -12,8 +12,6 @@ export const Experience = () => {
                 </div>
                 <div className='my-2'>
                     <strong>前端开发工程师</strong>
-                    {/*<span>技术栈：</span>*/}
-                    {/*<code>React</code>、<code>Arco-design</code>、<code>Webpack</code>、<code>TailwindCss</code>*/}
                 </div>
                 <div>
                     <span>工作内容：</span>
@@ -24,11 +22,14 @@ export const Experience = () => {
                         </div>
                         <div className='my-1'>
                             <span className='round mr-3' />
-                            负责公司内部数据平台、机器学习平台、标注平台的搭建和功能开发。
+                            {/*负责公司内部数据平台、机器学习平台、标注平台的搭建和功能开发。*/}
+                            负责公司内部 数据平台、机器学习平台、标注平台的前端功能开发，保证平台的稳定性和可扩展性。
                         </div>
-                        <div className='my-1'>
-                            <span className='round mr-3' />
-                            以 Echarts 为基础，搭建公司内部使用的图表库。
+                        <div>
+                            <div className='my-1'>
+                                <span className='round mr-3' />
+                                基于 Echarts 技术栈，搭建了适用于公司内部的图表库，开发和封装了符合公司需求的图表组件，提供了丰富的图表展示方式和交互功能。
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -41,15 +42,14 @@ export const Experience = () => {
                 </div>
                 <div className='my-2'>
                     <strong>前端开发工程师</strong>
-                    {/*<span>技术栈：</span>*/}
-                    {/*<code>Vue2</code>、<code>Element-ui</code>、<code>Webpack</code>*/}
                 </div>
                 <div>
                     <span>工作内容：</span>
                     <div className='flex flex-col my-1'>
                         <div className='my-1'>
                             <span className='round mr-3' />
-                            维护 4 个公司内部系统的正常运行。
+                            {/*维护 4 个公司内部系统的正常运行。*/}
+                            负责维护和管理公司内部的 4 个系统，确保系统的正常运行和稳定性。
                         </div>
                         {/*<div className='my-1'>*/}
                         {/*    <span className='round mr-3' />*/}
@@ -57,12 +57,16 @@ export const Experience = () => {
                         {/*</div>*/}
                         <div className='my-1'>
                             <span className='round mr-3' />
-                            负责将小组内的项目接入公司内部性能监控平台 —— 北斗系统。
+                            负责将小组内的项目接入公司内部性能监控平台 —— 北斗系统，确保项目的运行状态和性能数据能够被准确监测。
                         </div>
-                        <div className='my-1'>
-                            <span className='round mr-3' />
-                            协助组内其他同事对负责的项目向“微前端”的架构方向进行技术改造、升级。
+                        <div>
+                            <div className='my-1'>
+                                <span className='round mr-3' />
+                                协助团队成员对负责的项目向“微前端”的架构方向进行技术改造、升级，与团队成员密切合作，进行代码重构、模块拆分等工作，提升项目的
+                            </div>
+                            <div className='ml-4'>可维护性、扩展性。</div>
                         </div>
+
                     </div>
                 </div>
             </section>

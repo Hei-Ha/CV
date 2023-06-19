@@ -52,7 +52,7 @@ export const Projects = () => {
                     <div className='w-20 shrink-0'>项目描述：</div>
                     {/*<span>此项目主要是展示数据采集回传的 Run 数据（log 数据），视频信息经过分片之后，以图片的形式供审核人员快速确定某批数据是否可以送标；同时提供数据统计模块，按筛选条件展示回传数据的标签统计情况。</span>*/}
                     <span>
-                        该项目是一个数据平台，主要用于展示数据采集回传的 Run 数据（log 数据）。平台通过对回传的视频信息进行分片，将其以图片的形式展示给审核人员，以便快速确定某批数据是否可以进行标注。同时，该平台还提供数据统计模块，根据筛选条件展示回传数据的标签统计情况
+                        该项目是一个数据平台，主要用于展示数据采集回传的 Run 数据（log 数据）。平台通过对回传的视频信息进行分片，将其以图片的形式展示给审核人员，以便快速确定某批数据是否可以进行标注。同时，该平台还提供数据统计模块，根据筛选条件展示回传数据的标签统计情况。
                     </span>
                 </p>
                 <p className='mb-2 flex'>
@@ -67,9 +67,12 @@ export const Projects = () => {
                         {/*<div className='flex items-center'>*/}
                         {/*    负责审核模块、数据统计模块的开发和整个系统后续的功能迭代。*/}
                         {/*</div>*/}
-                        <div className='flex items-center'>
-                            <span className='round mr-3' />
-                            负责审核模块和数据统计模块的开发，包括设计和实现相应的功能和界面，确保审核人员能够快速、准确地浏览和审核采集回传的数据。
+                        <div>
+                            <div className='flex items-center'>
+                                <span className='round mr-3' />
+                                负责审核模块和数据统计模块的开发，包括设计和实现相应的功能和界面，确保审核人员能够快速、准确地浏览和审核采集回传的
+                            </div>
+                            <div className='ml-4'>数据。</div>
                         </div>
                         <div className='flex items-center'>
                             <span className='round mr-3' />
@@ -88,16 +91,16 @@ export const Projects = () => {
                         <div>
                             <div className='flex items-center'>
                                 <span className='round mr-3' />
-                                在项目初期接手并开展工作，面对紧张的开发周期，成功梳理和整理需求，确定优先级，合理安排开发时间，并在规定时间内上线了第一
+                                在项目初期接手并开展工作，面对紧张的开发周期，成功梳理和整理需求，确定优先级，合理安排开发时间，并在规定时间内上线了第
                             </div>
-                            <div className='ml-4'>版数据平台，为用户提供了可用的平台环境。</div>
+                            <div className='ml-4'>一版数据平台，为用户提供了可用的平台环境。</div>
                         </div>
                         <div>
                             <div className='flex items-center'>
                                 <span className='round mr-3' />
-                                通过开发的审核模块和数据统计模块，提升了标注同事对采集数据的处理效率。标注同事能够快速浏览和审核采集回传的数据，提高了数
+                                通过开发的审核模块和数据统计模块，提升了标注同事对采集数据的处理效率。标注同事能够快速浏览和审核采集回传的数据，提高了
                             </div>
-                            <div className='ml-4'>据处理的速度和准确性。</div>
+                            <div className='ml-4'>数据处理的速度和准确性。</div>
                         </div>
 
                         <div className='flex items-center'>
