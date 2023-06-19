@@ -11,7 +11,10 @@ export const Projects = () => {
                 </header>
                 <div className='mb-2 flex'>
                     <div className='w-20 shrink-0'>项目描述：</div>
-                    <span>此项目是为了给公司供应商提供一个在线标注平台，用于对公司的点云图片和其他数据进行在线标注。该项目包含了账号权限控制、数据分配和结果验收等关键模块。</span>
+                    <div>
+                        <p>此项目是为了给公司供应商提供一个在线标注平台，用于对公司的点云图片和其他数据进行在线标注。该项目包含了账号权限控制、</p>
+                        <p>数据分配和结果验收等关键模块。</p>
+                    </div>
                 </div>
                 <div className='mb-2 flex'>
                     <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>
@@ -51,9 +54,11 @@ export const Projects = () => {
                 <div className='mb-2 flex'>
                     <div className='w-20 shrink-0'>项目描述：</div>
                     {/*<span>此项目主要是展示数据采集回传的 Run 数据（log 数据），视频信息经过分片之后，以图片的形式供审核人员快速确定某批数据是否可以送标；同时提供数据统计模块，按筛选条件展示回传数据的标签统计情况。</span>*/}
-                    <span>
-                        该项目是一个数据平台，主要用于展示数据采集回传的 Run 数据（log 数据）。平台通过对回传的视频信息进行分片，将其以图片的形式展示给审核人员，以便快速确定某批数据是否可以进行标注。同时，该平台还提供数据统计模块，根据筛选条件展示回传数据的标签统计情况。
-                    </span>
+                    <div>
+                        <p>该项目是一个数据平台，主要用于展示数据采集回传的 Run 数据（log 数据）。平台通过对回传的视频信息进行分片，将其以图片</p>
+                        <p>的形式展示给审核人员，以便快速确定某批数据是否可以进行标注。同时，该平台还提供数据统计模块，根据筛选条件展示回传数</p>
+                        <p>据的标签统计情况。</p>
+                    </div>
                 </div>
                 <div className='mb-2 flex'>
                     <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>
@@ -116,7 +121,10 @@ export const Projects = () => {
                 </header>
                 <div className='mb-2 flex'>
                     <div className='w-20 shrink-0'>项目描述：</div>
-                    <span>此系统主要为公司内部运营人员服务，运营人员利用此系统每天抢占公海资源库的商机信息，并负责外呼跟进自己的商机信息，与潜在客户取得联系，促使其签订意向单，进一步转化为与公司签订合同。</span>
+                    <div>
+                        <p>此系统主要为公司内部运营人员服务，运营人员利用此系统每天抢占公海资源库的商机信息，并负责外呼跟进自己的商机信息，与</p>
+                        <p>潜在客户取得联系，促使其签订意向单，进一步转化为与公司签订合同。</p>
+                    </div>
                 </div>
                 <div className='mb-2 flex'>
                     <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>
