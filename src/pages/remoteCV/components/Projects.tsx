@@ -7,11 +7,11 @@ export const Projects = () => {
         <div className='text-sm'>
             <section>
                 <header className='my-2 text-base'>
-                    <strong>QLabel：</strong>
+                    <strong>标注平台</strong>
                 </header>
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>项目描述：</div>
-                    <span>此项目是为了给公司供应商提供一个在线标注平台，供其对公司点云图片及其他数据进行在线标注，包含账号权限控制，数据分配，结果验收等模块。</span>
+                    <span>此项目是为了给公司供应商提供一个在线标注平台，用于对公司的点云图片和其他数据进行在线标注。该项目包含了账号权限控制、数据分配和结果验收等关键模块。</span>
                 </p>
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>
@@ -23,21 +23,37 @@ export const Projects = () => {
                     <div className='w-20 shrink-0'>工作内容：</div>
                     <div className='flex flex-col'>
                         <div className='flex items-center'>
-                            主要负责设计和开发权限模块。
-                            除此之外项目初期，负责梳理整体需求，
-                            从 0 - 1 快速搭建项目整体框架；
-                            {/*负责项目框架的搭建、权限模块的设计和开发。*/}
+                            <span className='round mr-3' />主要负责设计和开发权限模块，确保系统的账号权限控制功能完善和安全可靠。
                         </div>
+                        <div className='flex items-center'>
+                            <span className='round mr-3' />在项目初期，负责梳理整体需求，与团队成员一起进行需求分析和讨论，确保对整体项目需求的准确理解。
+                        </div>
+                        <div className='flex items-center'>
+                            <span className='round mr-3' />从 0 到 1 快速搭建项目整体框架，以确保项目的快速启动和开发进度的迅速推进。
+                        </div>
+                        <div className='flex items-center'>
+                            <span className='round mr-3' />协调和配合团队成员，分配任务和资源，确保项目的进度和质量达到预期目标。
+                        </div>
+                        {/*<div className='flex items-center'>*/}
+                        {/*    主要负责设计和开发权限模块。*/}
+                        {/*    除此之外项目初期，负责梳理整体需求，与团队成员一起进行需求分析和讨论，确保对整体项目需求的准确理解。*/}
+                        {/*    从 0 - 1 快速搭建项目整体框架，以确保项目的快速启动和开发进度的迅速推进。*/}
+                        {/*    协调和配合团队成员，分配任务和资源，确保项目的进度和质量达到预期目标。*/}
+                        {/*    负责项目框架的搭建、权限模块的设计和开发。*/}
+                        {/*</div>*/}
                     </div>
                 </p>
             </section>
             <section className='mt-7'>
                 <header className='my-2 text-base'>
-                    <strong>QData：</strong>
+                    <strong>数据平台</strong>
                 </header>
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>项目描述：</div>
-                    <span>此项目主要是展示数据采集回传的 Run 数据，经过分片之后，以图片的形式供审核人员快速确定某批数据是否可以送标；同时提供数据统计模块，按筛选条件展示回传数据的标签统计情况。</span>
+                    {/*<span>此项目主要是展示数据采集回传的 Run 数据（log 数据），视频信息经过分片之后，以图片的形式供审核人员快速确定某批数据是否可以送标；同时提供数据统计模块，按筛选条件展示回传数据的标签统计情况。</span>*/}
+                    <span>
+                        该项目是一个数据平台，主要用于展示数据采集回传的 Run 数据（log 数据）。平台通过对回传的视频信息进行分片，将其以图片的形式展示给审核人员，以便快速确定某批数据是否可以进行标注。同时，该平台还提供数据统计模块，根据筛选条件展示回传数据的标签统计情况
+                    </span>
                 </p>
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>技&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;术：</div>
@@ -48,24 +64,52 @@ export const Projects = () => {
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>工作内容：</div>
                     <div className='flex flex-col'>
+                        {/*<div className='flex items-center'>*/}
+                        {/*    负责审核模块、数据统计模块的开发和整个系统后续的功能迭代。*/}
+                        {/*</div>*/}
                         <div className='flex items-center'>
-                            负责审核模块、数据统计模块的开发和整个系统后续的功能迭代。
+                            <span className='round mr-3' />
+                            负责审核模块和数据统计模块的开发，包括设计和实现相应的功能和界面，确保审核人员能够快速、准确地浏览和审核采集回传的数据。
                         </div>
+                        <div className='flex items-center'>
+                            <span className='round mr-3' />
+                            进行整个系统后续功能的迭代，根据需求和反馈进行系统功能的扩展和改进，以提升用户体验和平台的功能性。
+                        </div>
+
                     </div>
                 </p>
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>成&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;果：</div>
                     <div className='flex flex-col'>
+                        {/*<div className='flex items-center'>*/}
+                        {/*    项目初期中途接手，开发周期较紧张。在有限时间内梳理并整理需求，确定优先级，合理安排开发时间，在规定时间内上线第一版供用户使用。*/}
+                        {/*    提升了标注同事对采集数据的处理效率，提高送标数据的有效性，节约公司成本。*/}
+                        {/*</div>*/}
+                        <div>
+                            <div className='flex items-center'>
+                                <span className='round mr-3' />
+                                在项目初期接手并开展工作，面对紧张的开发周期，成功梳理和整理需求，确定优先级，合理安排开发时间，并在规定时间内上线了第一
+                            </div>
+                            <div className='ml-4'>版数据平台，为用户提供了可用的平台环境。</div>
+                        </div>
+                        <div>
+                            <div className='flex items-center'>
+                                <span className='round mr-3' />
+                                通过开发的审核模块和数据统计模块，提升了标注同事对采集数据的处理效率。标注同事能够快速浏览和审核采集回传的数据，提高了数
+                            </div>
+                            <div className='ml-4'>据处理的速度和准确性。</div>
+                        </div>
+
                         <div className='flex items-center'>
-                            项目初期中途接手，开发周期较紧张。在有限时间内梳理并整理需求，确定优先级，合理安排开发时间，在规定时间内上线第一版供用户使用。
-                            提升了标注同事对采集数据的处理效率，提高送标数据的有效性，节约公司成本。
+                            <span className='round mr-3' />
+                            成功与团队成员合作，按时完成了项目的上线和交付，解决公司燃眉之急。
                         </div>
                     </div>
                 </p>
             </section>
             <section className='mt-7'>
                 <header className='my-2 text-base'>
-                    <strong>招商后台管理系统：</strong>
+                    <strong>招商后台管理系统</strong>
                 </header>
                 <p className='mb-2 flex'>
                     <div className='w-20 shrink-0'>项目描述：</div>
@@ -95,7 +139,7 @@ export const Projects = () => {
                     <div className='w-20 shrink-0'>成&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;果：</div>
                     <div className='flex flex-col'>
                         <div className='flex items-center'>
-                            <span className='round mr-3' />在 Element-ui 组件的基础上，封装适合公司系统风格 RcForm 和 RcTable 组件，提升开发效率 60% 以上，同时降低新同学上手项目难
+                            <span className='round mr-3' />在 Element-ui 组件的基础上，封装适合公司系统风格 RcForm 和 RcTable 组件，提升开发效率 60% 以上，同时降低新同事上手项目难
                         </div>
                         <div className='ml-4'>
                             度，提升业务产出速度。
@@ -109,7 +153,7 @@ export const Projects = () => {
             <section className='mt-7'>
                 <header className='my-2 text-base'>
                     <span className='mr-3'>
-                        <strong>ECharts 常用组件库：</strong>
+                        <strong>ECharts 常用组件库</strong>
                     </span>
                     <span className='font-normal text-#551A8B'>
                     <a href="https://hei-ha.github.io/QCharts/" target='_blank'>在线链接</a>

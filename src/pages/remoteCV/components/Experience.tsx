@@ -20,7 +20,7 @@ export const Experience = () => {
                     <div className='flex flex-col my-1'>
                         <div className='my-1'>
                             <span className='round mr-3' />
-                            负责公司内部测试运营平台的功能开发。
+                            负责公司内部测试、运营平台的功能开发。
                         </div>
                         <div className='my-1'>
                             <span className='round mr-3' />
@@ -49,19 +49,19 @@ export const Experience = () => {
                     <div className='flex flex-col my-1'>
                         <div className='my-1'>
                             <span className='round mr-3' />
-                            维护 4 个公司内部系统的正常运行，解决 bug。
+                            维护 4 个公司内部系统的正常运行。
                         </div>
-                        <div className='my-1'>
-                            <span className='round mr-3' />
-                            根据产品需求，完成相关系统的前端代码开发工作，并与后端同学联调，最终将需求上线，并确保新老功能正常运行。
-                        </div>
+                        {/*<div className='my-1'>*/}
+                        {/*    <span className='round mr-3' />*/}
+                        {/*    根据产品需求，完成相关系统的前端代码开发工作，并与后端联调，最终将需求上线，并确保新老功能正常运行。*/}
+                        {/*</div>*/}
                         <div className='my-1'>
                             <span className='round mr-3' />
                             负责将小组内的项目接入公司内部性能监控平台 —— 北斗系统。
                         </div>
                         <div className='my-1'>
                             <span className='round mr-3' />
-                            协助组内其他同学对负责的项目向 微前端 的架构方向进行技术改造、升级。
+                            协助组内其他同事对负责的项目向“微前端”的架构方向进行技术改造、升级。
                         </div>
                     </div>
                 </div>
