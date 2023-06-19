@@ -70,9 +70,9 @@ export const Projects = () => {
                         <div>
                             <div className='flex items-center'>
                                 <span className='round mr-3'/>
-                                负责审核模块和数据统计模块的开发，包括设计和实现相应的功能和界面，确保审核人员能够快速、准确地浏览和审核采集回传的
+                                负责审核模块和数据统计模块的开发，包括设计和实现相应的功能和界面，确保审核人员能够快速、准确地浏览和审核采集回传
                             </div>
-                            <div className='ml-4'>数据。</div>
+                            <div className='ml-4'>的数据。</div>
                         </div>
                         <div className='flex items-center'>
                             <span className='round mr-3'/>
@@ -91,16 +91,16 @@ export const Projects = () => {
                         <div>
                             <div className='flex items-center'>
                                 <span className='round mr-3'/>
-                                在项目初期接手并开展工作，面对紧张的开发周期，成功梳理和整理需求，确定优先级，合理安排开发时间，并在规定时间内上线了第
+                                在项目初期接手并开展工作，面对紧张的开发周期，成功梳理和整理需求，确定优先级，合理安排开发时间，并在规定时间内
                             </div>
-                            <div className='ml-4'>一版数据平台，为用户提供了可用的平台环境。</div>
+                            <div className='ml-4'>上线了第一版数据平台，为用户提供了可用的平台环境。</div>
                         </div>
                         <div>
                             <div className='flex items-center'>
                                 <span className='round mr-3'/>
-                                通过开发的审核模块和数据统计模块，提升了标注同事对采集数据的处理效率。标注同事能够快速浏览和审核采集回传的数据，提高了
+                                通过开发的审核模块和数据统计模块，提升了标注同事对采集数据的处理效率。标注同事能够快速浏览和审核采集回传的数据，
                             </div>
-                            <div className='ml-4'>数据处理的速度和准确性。</div>
+                            <div className='ml-4'>提高了数据处理的速度和准确性。</div>
                         </div>
 
                         <div className='flex items-center'>
@@ -143,10 +143,10 @@ export const Projects = () => {
                     <div className='flex flex-col'>
                         <div className='flex items-center'>
                             <span className='round mr-3'/>在 Element-ui 组件的基础上，封装适合公司系统风格 RcForm 和
-                            RcTable 组件，提升开发效率 60% 以上，同时降低新同事上手项目难
+                            RcTable 组件，提升开发效率 60% 以上，同时降低新同事上手
                         </div>
                         <div className='ml-4'>
-                            度，提升业务产出速度。
+                            项目难度，提升业务产出速度。
                         </div>
                         <div className='flex items-center'>
                             <span className='round mr-3'/>开发 webpack 插件，以配置的形式传入必要数据，极大的简化了项目接入性能监控平台的步骤。
