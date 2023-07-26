@@ -7,7 +7,7 @@ export const Experience = () => {
         <div className='text-sm'>
             <section>
                 <div className='my-3 flex justify-between'>
-                    <header className='font-medium'>北京轻舟智航科技有限公司</header>
+                    <header className='font-medium'>北京轻舟智航科技有限公司（自动驾驶行业独角兽）</header>
                     <span>2022.3 —— 2023.5</span>
                 </div>
                 <div className='my-2'>
@@ -37,7 +37,7 @@ export const Experience = () => {
 
             <section className='mt-7'>
                 <div className='my-3 flex justify-between'>
-                    <header className='font-medium'>北京五八信息技术有限公司 —— 北京总部</header>
+                    <header className='font-medium'>北京五八信息技术有限公司（58同城） —— 北京总部</header>
                     <span>2020.5 —— 2021.12</span>
                 </div>
                 <div className='my-2'>
