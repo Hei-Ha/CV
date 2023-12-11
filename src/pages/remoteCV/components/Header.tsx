@@ -14,8 +14,9 @@ export const Header = () => {
         </header>
         <div className='h-px bg-#CCCCCC'/>
         {/*个人联系方式*/}
-        <div className='my-8 text-sm'>
-            <span>176-3823-1093 ｜ 男 ｜ 26岁 ｜ wangchuang.space@gmail.com</span>
+        <div className='my-7 text-sm'>
+            <span className='block'>176-3823-1093 ｜ 男 ｜ 26岁 ｜ wangchuang.space@gmail.com</span>
+            <span className='block mt-2'>博客：<a href="http://blog.wangchuang.space">blog.wangchuang.space</a></span>
         </div>
     </div>
 }
